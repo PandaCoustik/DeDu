@@ -1,5 +1,15 @@
 # Versions
 
+## Alpha 0.0.2 — optimisée
+
+- Correction de la gestion des clics Windows : coordonnées liées à la mise à l’échelle, reprise après une panne du gestionnaire et lecture fiable des zones cliquables.
+- Options accessibles dès le lancement ; sac masqué jusqu’à la récupération du carnet.
+- Animation au survol du sac, des options et de la façade de la ferme du Mégacoq.
+- Carte récapitulative des récompenses de quêtes, sans attribution en double, y compris après rechargement ou avec un sac plein.
+- Gobelins costauds à 20 PV dans la tanière, à l’entrée, dans les salles et dans les couloirs. Les éclaireurs des routes extérieures restent inchangés.
+
+Exécutable Windows autonome de 155 641 752 octets. Reprise de la sauvegarde 0.0.1 et clic natif au réveil vérifiés. Les essais sur d’autres configurations se poursuivent.
+
 ## Alpha 0.0.1 — optimisée
 
 Première préversion proposée sur ce dépôt, destinée aux essais.

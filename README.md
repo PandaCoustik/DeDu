@@ -6,9 +6,9 @@ Ce dépôt rassemble les **versions à télécharger**, les informations du jeu 
 
 ## Télécharger et jouer
 
-**[Télécharger l’Alpha 0.0.1 optimisée](https://github.com/PandaCoustik/DeDu/releases/tag/v0.0.1-alpha-optimise)**
+**[Télécharger l’Alpha 0.0.2 optimisée](https://github.com/PandaCoustik/DeDu/releases/tag/v0.0.2-alpha-optimise)**
 
-1. Dans la section **Assets** de la release, télécharger `DesktopDungeon-Alpha-0.0.1-optimise.exe`.
+1. Dans la section **Assets** de la release, télécharger `DesktopDungeon-Alpha-0.0.2-optimise.exe`.
 2. Placer le fichier dans le dossier de son choix et le lancer.
 3. Suivre le tutoriel intégré, à partir du bouton **Se réveiller**.
 
@@ -35,11 +35,9 @@ Les interactions se font à la souris. **Espace** permet d’avancer les dialogu
 
 ## Version optimisée
 
-L’Alpha 0.0.1 optimisée pèse **155,6 Mo**, contre 289,3 Mo pour le premier export, soit **46,2 % de moins**.
+L’Alpha 0.0.2 optimisée pèse **155,6 Mo**. Elle conserve la compression haute qualité des textures, leurs dimensions et leur transparence. Cette mise à jour corrige notamment les clics au démarrage, ajoute le récapitulatif des récompenses de quêtes et ajuste les interactions. Voir le [journal des versions](CHANGELOG.md).
 
-Les textures sont compressées à haute qualité, en conservant leurs dimensions et leur transparence. Les scripts, les sons et les données de jeu sont inchangés. La compression comporte une légère perte sur les couleurs ; les comparaisons réalisées n’ont pas montré de dégradation gênante aux tailles examinées.
-
-Il s’agit d’une **préversion de test**. Les contrôles automatisés, le démarrage vierge, la reprise de sauvegarde et plusieurs comparaisons visuelles ont été effectués. Les essais manuels et les tests sur d’autres machines se poursuivent ; cela ne constitue pas une validation exhaustive du jeu.
+Il s’agit d’une **préversion de test**. Le clic Windows au réveil, le démarrage vierge, la reprise d’une sauvegarde 0.0.1 et les contrôles automatisés du paquet ont été vérifiés. Les essais sur d’autres machines se poursuivent.
 
 ## Sauvegardes
 
@@ -49,7 +47,7 @@ Les sauvegardes et diagnostics sont créés dans :
 %APPDATA%\Desktop Dungeon Alpha
 ```
 
-La version optimisée utilise le même dossier et le même format que l’Alpha 0.0.1 précédente. Elle reprend donc la partie existante. Pour conserver un point de retour avant des essais, copier ce dossier lorsque le jeu est fermé.
+La version 0.0.2 conserve le dossier de sauvegardes de l’Alpha 0.0.1. Elle reprend donc la partie existante. Pour conserver un point de retour avant des essais, copier ce dossier lorsque le jeu est fermé.
 
 ## Signaler un problème
 
